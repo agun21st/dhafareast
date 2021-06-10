@@ -7,7 +7,7 @@
     <meta name="keywords" content="Bangladesh Clothing Manufacturer, Underwear Manufacturing, Sportswear Manufacturing, Hooded Sweatshirt Manufacturer, workwear manufacturers, thermal winter nightwear supplier, Sports T-shirts Supplier, Garment Factorie in Bangladesh, garment sourcing, Apparel sourcing, clothing sourcing, Bangladesh T-shirts, Made in Bangladesh,  Activewear Manufacturer, Workwear Manufacturer, knitwear, womenswear, organic clothing, sourcing, organic cotton, apparel & fashion, women's apparel">
 @stop
 @section('all-stories')
-    <section class="banner-section" style="background-image: url({{ Voyager::image(setting('admin.bg_image'))}});" alt="Dhaka Fareast LTD">
+    <section class="banner-section"             style="background-image: url({{ Voyager::image(setting('admin.bg_image'))}});" alt="Dhaka Fareast LTD">
         <div class="overley"></div>
         <div class="container">
             <div class="row text-justify">
