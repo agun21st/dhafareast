@@ -7,7 +7,7 @@
     <meta name="keywords" content="Bangladesh Clothing Manufacturer, Underwear Manufacturing, Sportswear Manufacturing, Hooded Sweatshirt Manufacturer, workwear manufacturers, thermal winter nightwear supplier, Sports T-shirts Supplier, Garment Factorie in Bangladesh, garment sourcing, Apparel sourcing, clothing sourcing, Bangladesh T-shirts, Made in Bangladesh,  Activewear Manufacturer, Workwear Manufacturer, knitwear, womenswear, organic clothing, sourcing, organic cotton, apparel & fashion, women's apparel">
 @stop
 @section('all-stories')
-    <section class="banner-section"             style="background-image: url({{ Voyager::image(setting('admin.bg_image'))}});" alt="Dhaka Fareast LTD">
+    <section class="banner-section" style="background-image: url({{ Voyager::image(setting('admin.bg_image'))}});" alt="Dhaka Fareast LTD">
         <div class="overley"></div>
         <div class="container">
             <div class="row text-justify">
@@ -139,7 +139,7 @@
                             <a href="/knitwear-manufacturer-and-exporter" class="widget_link">
                                 <div class="single-service-item">
                                     <div class="image-box">
-                                        <img class="img-responsive" style="height: 300px;" src="images/garments-img2.jpg" alt="Sweeing">
+                                        <img class="img-responsive" style="height: 300px;" src="images/garments-img2.webp" alt="Sweeing">
                                     </div>
                                     <div class="service-item-content">
                                         <a href="/knitwear-manufacturer-and-exporter"><h3 class="tittle">Knitwear Manufacturer and Exporter</h3></a>
@@ -153,7 +153,7 @@
                             <a href="/woven-garment-manufacturer-and-exporter" class="widget_link">
                                 <div class="single-service-item">
                                     <div class="image-box">
-                                        <img class="img-responsive" style="height: 300px;" src="images/16091594158_7abf05498e_k.jpg" alt="Finishing">
+                                        <img class="img-responsive" style="height: 300px;" src="images/16091594158_7abf05498e_k.webp" alt="Finishing">
                                     </div>
                                     <div class="service-item-content">
                                         <a href="/woven-garment-manufacturer-and-exporter"><h3 class="tittle">Woven Garment Manufacturer and Exporter</h3></a>

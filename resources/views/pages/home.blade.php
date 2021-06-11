@@ -7,7 +7,6 @@
     <meta name="keywords" content="Bangladesh Clothing Manufacturer, Underwear Manufacturing, Sportswear Manufacturing, Hooded Sweatshirt Manufacturer, workwear manufacturers, thermal winter nightwear supplier, Sports T-shirts Supplier, Garment Factorie in Bangladesh, garment sourcing, Apparel sourcing, clothing sourcing, Bangladesh T-shirts, Made in Bangladesh,  Activewear Manufacturer, Workwear Manufacturer, knitwear, womenswear, organic clothing, sourcing, organic cotton, apparel & fashion, women's apparel">
 @stop
 @section('all-stories')
-{{-- carousel Start --}}
 <div class="tp-banner-container">
     <div class="tp-banner">
         <ul>
@@ -32,27 +31,26 @@
             </li>
             <li data-transition="fade" data-slotamount="8">
                 <img alt="" src="{{URL::asset('images/slider/dummy.png')}}" data-lazyload="{{URL::asset('images/slider/thirdBackground.webp')}}" data-bgposition="left center" data-kenburns="on" data-duration="14000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="130" data-bgpositionend="left center">
-                <div class="caption lfr" data-y="170" data-x="right" data-speed="600" data-start="1000"><img alt="" src="{{URL::asset('images/slider/third_front.webp')}}"></div>
-                <div class="caption lfl large-title tp-resizeme" data-x="0" data-y="135" data-speed="600" data-start="1200" style="color: #fff; font-size: 30px; text-shadow: 2px 2px black;">WOVEN GARMENTS MANUFACTURER AND EXPORTER</div>
-                <h1 class="caption lfl large-title tp-resizeme " data-x="0" data-y="165" data-speed="600" data-start="1400" style="font-size: 25px; color:#fff; text-shadow: 2px 2px #ff4444;">Experience the Best Woven Items</h1>
-                <div class="caption lfl large-title tp-resizeme" data-x="0" data-y="250" data-speed="600" data-start="1600" style="color: #ff4444; font-size: 25px;">Durable, Non-Shrinkable Attires</div>
-                <div class="caption lfl large-title tp-resizeme " data-x="0" data-y="300" data-speed="600" data-start="1800" style="color:#fff; font-size: 18px; font-weight:bold">Tremendous Technology | Eco-friendly Products</div>
-                <div class="caption lfl large-title tp-resizeme " data-x="0" data-y="330" data-speed="600" data-start="1800" style="color:#fff; font-size: 18px; font-weight:bold">Freedom in Customization</div>
-                <div class="caption lfl large-title tp-resizeme" data-x="0" data-y="360" data-speed="600" data-start="2000" style="font-size: 34px;"><a href="/woven-garments-manufacturer-and-exporter" style="color: #fff !important; font-size: 20px; border-radius: 35px; padding: 10px 20px;" class="btn btn-danger">Know More</a></div>
+                <div class="caption lfl" data-y="170" data-x="left" data-speed="600" data-start="1000"><img alt="" src="{{URL::asset('images/slider/third_front.webp')}}"></div>
+                <div class="caption lfr large-title tp-resizeme" data-x="right" data-y="135" data-speed="600" data-start="1200" style="color: #fff; font-size: 30px; text-shadow: 2px 2px black;">WOVEN GARMENTS MANUFACTURER AND EXPORTER</div>
+                <h1 class="caption lfr large-title tp-resizeme " data-x="right" data-y="165" data-speed="600" data-start="1400" style="font-size: 25px; color:#fff; text-shadow: 2px 2px #ff4444;">Experience the Best Woven Items</h1>
+                <div class="caption lfr large-title tp-resizeme" data-x="right" data-y="250" data-speed="600" data-start="1600" style="color: #ff4444; font-size: 25px;">Durable, Non-Shrinkable Attires</div>
+                <div class="caption lfr large-title tp-resizeme " data-x="right" data-y="300" data-speed="600" data-start="1800" style="color:#fff; font-size: 18px; font-weight:bold">Tremendous Technology | Eco-friendly Products</div>
+                <div class="caption lfr large-title tp-resizeme " data-x="right" data-y="330" data-speed="600" data-start="1800" style="color:#fff; font-size: 18px; font-weight:bold">Freedom in Customization</div>
+                <div class="caption lfr large-title tp-resizeme" data-x="right" data-y="360" data-speed="600" data-start="2000" style="font-size: 34px;"><a href="/woven-garments-manufacturer-and-exporter" style="color: #fff !important; font-size: 20px; border-radius: 35px; padding: 10px 20px;" class="btn btn-danger">Know More</a></div>
             </li>
             <li data-transition="fade" data-slotamount="8">
                 <img alt="" src="{{URL::asset('images/slider/dummy.png')}}" data-lazyload="{{URL::asset('images/slider/OurTeam.webp')}}" data-bgposition="left center" data-kenburns="on" data-duration="14000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="130" data-bgpositionend="left center">
-                <div class="caption lfr" data-y="170" data-x="right" data-speed="600" data-start="1000"><img alt="" src="{{URL::asset('images/slider/slide-3-img.webp')}}"></div>
-                <div class="caption lfl large-title tp-resizeme" data-x="0" data-y="135" data-speed="600" data-start="1200" style="color: #fff; font-size: 35px; text-shadow: 2px 2px black;">How we can help you?</div>
-                <h1 class="caption lfl large-title tp-resizeme " data-x="0" data-y="165" data-speed="600" data-start="1400" style="font-size: 45px; color:#fff; text-shadow: 3px 3px black;">We are Online 24/7</h1>
-                <div class="caption lfl large-title tp-resizeme" data-x="0" data-y="250" data-speed="600" data-start="1600" style="color: #ff4444; font-size: 25px;">You are always welcome</div>
-                <div class="caption lfl large-title tp-resizeme " data-x="0" data-y="300" data-speed="600" data-start="1800" style="color:#fff; font-size: 16px; text-shadow: 1px 1px #ff4444; font-weight:bold">Every request is critical for us</div>
-                <div class="caption lfl large-title tp-resizeme" data-x="0" data-y="360" data-speed="600" data-start="2000" style="font-size: 34px;"><a href="/contact" style="color: #fff !important; font-size: 20px; border-radius: 35px; padding: 10px 20px;" class="btn btn-info">Just Contact us</a></div>
+                <div class="caption lfl" data-y="170" data-x="left" data-speed="600" data-start="1000"><img alt="" src="{{URL::asset('images/slider/slide-3-img.webp')}}"></div>
+                <div class="caption lfr large-title tp-resizeme" data-x="right" data-y="135" data-speed="600" data-start="1200" style="color: #fff; font-size: 35px; text-shadow: 2px 2px black;">How we can help you?</div>
+                <h1 class="caption lfr large-title tp-resizeme " data-x="right" data-y="165" data-speed="600" data-start="1400" style="font-size: 45px; color:#fff; text-shadow: 3px 3px black;">We are Online 24/7</h1>
+                <div class="caption lfr large-title tp-resizeme" data-x="right" data-y="250" data-speed="600" data-start="1600" style="color: #ff4444; font-size: 25px;">You are always welcome</div>
+                <div class="caption lfr large-title tp-resizeme " data-x="right" data-y="300" data-speed="600" data-start="1800" style="color:#fff; font-size: 16px; text-shadow: 1px 1px #ff4444; font-weight:bold">Every request is critical for us</div>
+                <div class="caption lfr large-title tp-resizeme" data-x="right" data-y="360" data-speed="600" data-start="2000" style="font-size: 34px;"><a href="/contact" style="color: #fff !important; font-size: 20px; border-radius: 35px; padding: 10px 20px;" class="btn btn-info">Just Contact us</a></div>
             </li>
         </ul>
     </div>
 </div>
-{{-- carousel End --}}
     {{-- <section class="banner-section" style="background-image: url({{ Voyager::image(setting('admin.bg_image'))}});" alt="Dhaka Fareast LTD">
         <div class="overley"></div>
         <div class="container">
@@ -180,7 +178,7 @@
             <section class="" style="margin-top: 50px;">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="widget-wrap wow fadeInLeft delay-.2s" data-wow-duration="3s">
+                        <div class="widget-wrap wow fadeInUp delay-.5s" data-wow-duration="1s">
                             <a href="/knitwear-manufacturer-and-exporter" class="widget_link">
                                 <div class="single-service-item">
                                     <div class="image-box">
@@ -194,7 +192,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="widget-wrap wow fadeInRight delay-.2s" data-wow-duration="5s">
+                        <div class="widget-wrap wow fadeInUp delay-.5s" data-wow-duration="1s">
                             <a href="/woven-garment-manufacturer-and-exporter" class="widget_link">
                                 <div class="single-service-item">
                                     <div class="image-box">
@@ -442,11 +440,8 @@
     </section>
 @stop
 @section('style')
-    
+
 @endsection
 @section('scripts')
-<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-        <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script><script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script><script type="text/javascript" src="js/jquery.nicescroll.js"></script><script type="text/javascript" src="js/script.js"></script>
 @stop

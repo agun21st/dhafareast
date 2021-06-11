@@ -15,6 +15,14 @@
 </head>
 
 <body class="body-wrapper">
+  <div class="dhakaLoad">
+    <div class="dhakaLoader">
+      <div class="spin"></div>
+      <div class="loading">
+          <img src="/images/slider/logo.webp" alt="Dhaka Far East Site Logo"/>
+      </div>
+    </div>
+  </div>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJLD5FR"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -30,6 +38,35 @@
 
     @include('includes.footer')
     @yield('scripts')
+    <script type="text/javascript">
+        $(window).on('load', function() {
+            $('.dhakaLoad').addClass('complete')
+        })
+      </script>
+      <script type="text/javascript">
+      $(document).ready(function () {
+      $("html").niceScroll({
+        cursorcolor:"crimson",
+        cursorwidth:"16px"
+      });
+            $("#sidenav").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#dismiss, .fullOverlay').on('click', function () {
+                $('#sidenav').removeClass('active');
+                $('.fullOverlay').removeClass('active');
+                $('#sidenav-collapse').removeClass('open');
+            });
+
+            $('#sidenav-collapse').on('click', function () {
+                $('#sidenav').addClass('active');
+                $('.fullOverlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
 
     <script type='application/ld+json'> 
         {

@@ -36,23 +36,3 @@
                 }
             });
         </script>
-        <script type="text/javascript">
-	        $(document).ready(function () {
-	            $("#sidenav").mCustomScrollbar({
-	                theme: "minimal"
-	            });
-
-	            $('#dismiss, .fullOverlay').on('click', function () {
-	                $('#sidenav').removeClass('active');
-	                $('.fullOverlay').removeClass('active');
-	                $('#sidenav-collapse').removeClass('open');
-	            });
-
-	            $('#sidenav-collapse').on('click', function () {
-	                $('#sidenav').addClass('active');
-	                $('.fullOverlay').addClass('active');
-	                $('.collapse.in').toggleClass('in');
-	                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-	            });
-	        });
-	    </script>

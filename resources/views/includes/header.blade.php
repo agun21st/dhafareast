@@ -6,8 +6,8 @@
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 					<div class="contact_info">
 						<ul>
-							<li><a href="#"><i class="fas fa-phone contact-info-icon fa-sm fa-rotate-90"></i><span>+88028416120</span></a></li>
-							<li><a class="mailto" href="mailto:info@dhakafareast.com"><i class="far fa-envelope contact-info-icon"></i><span>info@dhakafareast.com</span></a></li>
+							<li><a href="#"><i class="fas fa-phone contact-info-icon fa-sm fa-rotate-90" style="color: crimson"></i><span>+88028416120</span></a></li>
+							<li><a class="mailto" href="mailto:info@dhakafareast.com"><i class="far fa-envelope contact-info-icon" style="color: crimson"></i><span>info@dhakafareast.com</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -18,10 +18,10 @@
 							<a class="social_icon_contact" href="/contact"><span>Contact</span></a>
 						</div>
 						<ul>
-							<li><a href="https://www.facebook.com/Dhaka-Fareast-Limited-979943828705519" target="_blank"><i class="fab fa-facebook-f social-icon"></i></a></li>
-							<li><a href="https://www.linkedin.com/company/2679705" target="_blank"><i class="fab fa-linkedin-in social-icon"></i></a></li>
+							<li><a href="https://www.facebook.com/Dhaka-Fareast-Limited-979943828705519" target="_blank"><i class="fab fa-facebook-f social-icon" style="color: crimson"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/2679705" target="_blank"><i class="fab fa-linkedin-in social-icon" style="color: crimson"></i></a></li>
 							{{-- <li><a href="https://g.page/dhaka-fareast-ltd?gm" target="_blank"><i class="fab fa-google social-icon"></i></a></li> --}}
-							<li><a href="https://g.page/dhaka-fareast-ltd?gm" target="_blank"><i class="fas fa-map-marked-alt"></i></a></li>
+							<li><a href="https://g.page/dhaka-fareast-ltd?gm" target="_blank"><i class="fas fa-map-marked-alt" style="color: crimson"></i></a></li>
 						</ul>
 					</div>
 				</div>

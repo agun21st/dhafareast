@@ -15,13 +15,66 @@ body .box-wrapper { background-color: #fff; }
 .clients-image {
     margin-bottom: 20px;
 }
+
+/* Loader start */
+.dhakaLoad
+{
+    position:fixed;
+    z-index:99999;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background: #ecf0f3;
+    transition: 1s 0.4s;
+}
+.dhakaLoader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.dhakaLoad.complete
+{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    display: none;
+}
+.spin
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background: transparent;
+    border: 5px solid transparent;
+    border-top: 5px solid crimson;
+    animation: loader 1.5s linear infinite;
+}
+.loading
+{
+    position: absolute;
+    color: #ffffff;
+}
+.loading img
+{
+    width: auto;
+    height: 50px;
+}
+@keyframes loader {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/* Loader end */
+
 /*----------- Top bar starts ------------*/
 .top-bar {
 	display: block;
 	position: relative;
 	height: 45px;
 	width: 100%;
-	background-color: #000;
+	background-color: crimson;
 }
 .top-bar .contact_info {
 	display: block;
@@ -2224,12 +2277,7 @@ ul.sitemapDisk li::before {
     width: 1em;
     margin-left: -1em;
 }
-
-
-
-
-
-/* index carousel Start */
+/* index Start */
 .tp-banner-container {
 	position: relative;
 	z-index: 1;
@@ -2530,8 +2578,8 @@ a.wit-btn {
 		transform:translateY(0);
 	}
 }
-/* index carousel End */
-/* Carousel Start again */
+/* index End */
+/*Start again */
 /***** Main Colors *******/
 a, .top-search a, .main-color, .hr-style4:after, .hr-style4:before, .block-head, .widget-head, footer a:hover, .title-2 .breadcrumbs a, .title-3 .breadcrumbs a, .title-4 .breadcrumbs a, .nav-3 .top-nav > ul > li.current > a,.nav-3 .top-nav > ul > li.current > a i,.nav-3 .top-nav > ul > li.selected > a i,.nav-3 .top-nav > ul > li > a:hover i, .nav-3 .top-nav > ul > li > a:hover, .nav-3 .top-nav > ul > li.selected > a, .nav-3 .top-nav > ul > li.selected > a i, .footer-top a:hover:before, .list.prim li:before, #filters li a, .team-box-2 .t-position, .team-box-2 .team-socials a, .head-style3 .top-bar li a, .author-name, .add-items i.fa, .copyrights b, .dark-bg .btn-large:before, .box-top .more-btn, .service-box-1:hover a, .box-top i.fa, .item-box:hover .item-tools i, .item-cart a:hover, .main-border, .fun-title, .staff-1 .fun-icon, .top-bar ul.social-list li a:hover span, .nav-2 .top-nav > ul > li > a:hover i, .nav-2 .top-nav > ul > li.current > a i, .nav-2 .top-nav > ul > li.selected > a i, .nav-2 .top-nav > ul > li.selected > a i, .project-name, .slick-dots li.slick-active button:before, .title-1 h1,
 .list.alt li:before,.product-price, .title-2 h1,.main-title, .accordion li.active a, .accordion li > h3 i.fa, .post-info h2 a:hover, .siteMap-nav ul ul li a:hover, .head2-lft-links li i, .head-style3 .top-bar li i, .item-tools i, .product-specs a.btn.selected,.widget-content a:hover,
@@ -2696,38 +2744,14 @@ blockquote {
        (min-resolution: 144dpi),
        (min-resolution: 1.5dppx) {
 }
-/* Carousel Start End */
-
-
-/*-----------------------------------------------------------------------------
-
-	-	Revolution Slider 4.1 Captions -
-
-		Screen Stylesheet
-
-version:   	1.4.5
-date:      	27/11/13
-author:		themepunch
-email:     	info@themepunch.com
-website:   	http://www.themepunch.com
------------------------------------------------------------------------------*/
-
-
-
+/*Start End */
 /*************************
 	-	CAPTIONS	-
 **************************/
-
 .tp-static-layers	{	position:absolute; z-index:505; top:0px;left:0px}
-
 .tp-hide-revslider,.tp-caption.tp-hidden-caption	{	visibility:hidden !important; display:none !important}
-
-
 .tp-caption { z-index:1; white-space:nowrap}
-
 .tp-caption-demo .tp-caption	{	position:relative !important; display:inline-block; margin-bottom:10px; margin-right:20px !important}
-
-
 .tp-caption.whitedivider3px {
 
 	color: #000000;
